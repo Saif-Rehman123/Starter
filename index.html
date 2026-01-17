@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABC Furniture & Interiors</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    line-height: 1.6;
+    background: #f5f5f5;
+}
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin:0;
+    font-size: 2em;
+}
+nav ul {
+    list-style: none;
+    padding:0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background: url('images/hero.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-card {
+    width: 48%;
+    margin-bottom: 20px;
+    background:#f9f9f9;
+    border-radius:10px;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.service-card img {
+    width:100%;
+    border-radius:10px;
+    height: 150px;
+    object-fit: cover;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery img {
+    width: 30%;
+    margin-bottom: 10px;
+    border-radius:10px;
+    object-fit: cover;
+}
+.contact p, .about p {
+    margin:10px 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background:#222;
+    color:#fff;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color:white;
+    padding: 15px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+}
+@media(max-width:768px){
+    .services {flex-direction: column;}
+    .service-card {width: 100%;}
+    .gallery img {width:48%;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Naseer Ahmad interiors</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="hero">
+    Professional Furniture &     Interior Solutions
+</div>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a professional carpentry and interior solutions workers with 20+ years of experience. Custom furniture, PVC panels, and home interiors.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-card">
+            <img src="images/service1.jpg" alt="Custom Furniture">
+            <h3>Custom Furniture</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/service2.jpg" alt="PVC Panels">
+            <h3>PVC Panels</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/service3.jpg" alt="Repairs & Maintenance">
+            <h3>Repairs & Maintenance</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/service4.jpg" alt="Home Interiors">
+            <h3>Home Interiors</h3>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="images/image1.jpg" alt="Work 1">
+    <img src="images/image2.jpg" alt="Work 2">
+    <img src="images/image3.jpg" alt="Work 3">
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 0318-1007646</p>
+    <p>Email: naseerhmaadd@gmail.com</p>
+    <p>Address: Karachi, Pakistan</p>
+</section>
+
+<footer>
+    <p>© 2026 Naseer Ahmad Furniture & Interiors. All rights reserved.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/923181007616">💬</a>
+
+</body>
+</html>
